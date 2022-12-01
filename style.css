@@ -1,0 +1,27 @@
+h3{
+ padding-left: 35px;
+ font-family: segoe print, Georgia, Times New Roman, cursive;
+}
+label{
+  font-family: segoe print, Georgia, Times New Roman, cursive;
+}
+  .cont-submit{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2px;
+  margin-bottom: 5px;  
+} 
+.conteiner{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  padding: 1px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px; 
+
+ }
+fieldset{
+   width: 350px; 
+}

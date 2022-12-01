@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Breeds</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form method="post" action="https://httpbin.org/post">
+<div class=conteiner>
+<h3>Cat breeds</h3><ul id="catsId">
+</ul>
+ <fieldset>
+<p><label>Favorite Cats Breeds:
+   <select name="select" id="breedsId" required placeholder="breed" title="Make your choice"> 
+  <option></option>
+  </select></label></p>
+  
+  <p><label> How many cats have U had? 
+ <input type="number" name="quantity" size="3" step="1" id="numberId" value="0" min="0" max="99" required title="Max quantity is 99"></label></p> 
+ 
+ <p><label> Favorite cat name?
+ <input type="text" name="catname" id="Nameid" required pattern="[A-Z]{1,}[a-z]{2,}" title="Favorite cat name must consist of letters only and start with a capital"></input></label></p>
+<div class=cont-submit>
+<button>Submit</button></div>
+</div></fieldset>
+</form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
